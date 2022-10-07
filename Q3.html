@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Heading </h1>
+    <input type="text" id="value">
+    <button id="h1" onclick="heading1()">H1</button>
+    <button id="h2" onclick="heading2()">H2</button>
+    <button id="h3" onclick="heading3()">H3</button>
+    <script>
+        var x=16;
+        function heading1(){
+          document.getElementById("value").style.fontSize="36px";
+        }
+        function heading2(){
+          document.getElementById("value").style.fontSize="24px";
+        }
+        function heading3(){
+          document.getElementById("value").style.fontSize="21px";
+        }
+    </script>
+</body>
+</html>

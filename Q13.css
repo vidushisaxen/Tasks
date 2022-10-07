@@ -1,0 +1,20 @@
+:root{
+    --primary-color:blue;
+    --secondary-colour:gray;
+}
+#one{
+    color: var(--primary-color);
+    margin-left: 20px;
+}
+#two{
+    color: var(--secondary-colour);
+    margin-left: 20px;
+}
+#pbtn{
+    color: var(--primary-color);
+    margin-left: 30px;
+}
+#sbtn{
+    color: var(--secondary-colour);
+    margin-left: 30px;
+}

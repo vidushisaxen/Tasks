@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+  <h1> Calculator</h1>
+  <input type="text" id="one">
+  <br>
+  <br>
+  <input type="text" id="two">
+  <hr>
+  <select id="operators">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+   <button onclick="calculate()"> = </button>
+   <input type="text" id="answer">
+
+
+    <script>
+     function calculate(){
+    var a= parseInt(document.getElementById("one").value);
+    var b= parseInt(document.getElementById("two").value);
+    var o= document.getElementById("operators").value;
+    if(o == '+'){
+       document.getElementById("answer").value=a+b;
+    }
+    if(o == '-'){
+        document.getElementById("answer").value=a-b;
+    }
+    if(o == '*'){
+        document.getElementById("answer").value=a*b;
+    }
+    if(o == '/'){
+        document.getElementById("answer").value=a/b;
+    }
+}
+    </script>
+</body>
+</html>
